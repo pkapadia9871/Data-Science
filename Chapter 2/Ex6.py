@@ -1,0 +1,10 @@
+amount = input('Enter the amount of a purchase: ')
+state_tax = 0.04 * amount
+county_tax = 0.02 * amount
+total_tax = state_tax + county_tax
+total_amount = amount + total_tax
+print 'The amount purchase =  ', '%.2f' %amount
+print 'The state tax =  ', '%.2f' %state_tax
+print 'The county tax =  ', '%.2f' %county_tax
+print 'The total sales tax =  ', '%.2f' %total_tax
+print 'The total of the sale =  ', '%.2f' %total_amount
